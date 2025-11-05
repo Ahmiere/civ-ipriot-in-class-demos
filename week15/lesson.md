@@ -145,14 +145,14 @@ Do you think this code will run? Write down everything that's wrong with it (fin
 
 Write down every error you found:
 
-> 1.
-> 2.
-> 3.
-> 4.
-> 5.
-> 6.
-> 7.
-> 8.
+> 1. the initialiser is written as '__int__' instead of what it should be which is '__init__'
+> 2. the argument 'self' is missing from the initialiser
+> 3. the variable for self.name is spelled 'nam' instead of 'name', which it is meant to be.
+> 4. 'coat = coat' should be 'self.coat = coat'
+> 5. oopsy shouldnt be there as it does nothing
+> 6. the function 'this_cant_possibly_work()' is never defined anywhere
+> 7. 'self.speak' shouldn't be called inside the speak function definition
+> 8. cats don't Moo, they say meow or purrs
 
 Without fixing the code, try running it! The result may surprise you.
 
